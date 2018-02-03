@@ -1,1 +1,72 @@
+COMP-SCI 5590 – Python Lab 1
+
+•	Author
+  Abdoh Jabbari
+  
+•	Objective
+  • The objective of the lab is to be more familiar with some basic topics in python environments and to get to know how to solve some basic problems. Some of the basic topics in this lab are:
+  •	How to brain storm first and writing down the steps to understand the scenarios.
+  •	Find out what to use such as List, String, Tuples, Functions, Loops, or if Conditions. 
+•	Features
+    The main feature of this lab is basicness of the coding. In this lab we used different feature in each part of the lab. For example: 
+    Part-1: loop was used along with multiple if and elif conditions. Also, after each condition, break statements used to check each 
+    condition individually before moving into the second condition. 
+    Part-2: math library was used to help to count the number of words and find the middle words especially when the sentence is even 
+    number. If and else statement was used to apply conditions.
+    Part-3: def was the feature used to declare the function name that is going to be used in this code. Also, loop with for statements
+    along with if condition statements to compare the numbers to find three numbers equal to zero.
+    Part-4: in this part the list of students was provided for both classes, to match between the two lists, loop feature was used along
+    with if statements.  
+    
+•	Configuration
+  The configuration environment is python 3 as the interpreter and the IDE used in this lab is pycharm. 
+  
+•	Explain the implementation including code snippet
+    For each part I did use different implementation; for example:
+    Part-1 I use loop to check the entered phrase if it is meeting the list of the rules:
+        a)	check if the length in range 6-16 characters
+        b)	check if it has at least one number
+        c)	check if it has one special character in [$@!*]'''
+        d)	check if it has at least one lowercase[a-z]
+        e)	check if it has at least one uppercase character[A-Z]
+    Part-2 
+    In this part I needed to use math library to help me figure out the middle words because I had problem solving it at the beginning 
+    especially when the words in the sentence is even. I split the words in the sentence then count the words then to find the middle 
+    words I divide the middle into min and max value in the case of even number then print them both to be the middle words. In the case
+    of odd it has no problems to find the middle word. The next two section of this part I didn’t need to use if condition as the first one.
+    I just len() function to find the longest word and I used [::-1] to print the sentence in reverse order. 
+    Part 3.
+    This part of the lab is to find triplets in the list which gives the sum of zero, to do such I needed to define three variables x, y 
+    and z, then for each variable it will be representing the list of numbers. Then each variable each will check on other values until we
+    meet the condition x+y+z=0. If the condition did not meet it will move to the other condition which is print the sum of zero not found. 
+    Part 4
+    In this part we have list of students who are attending class “Python” and another list of students who are attending class 
+    “Web Application” and we need to find who adding both classes and who is not. I used loop to pick each name from python and compare
+    it to the list on web application students’ list. If the match found in both then it prints it out, and then go back again do the 
+    same process gain with the second name until the list is done. Then for find the none common name we use the condition in which if 
+    the name is not found to be matching from python class with web application. 
+    
+•	Explain about the deployment
+    The deployment in each part was done in couple of steps: 
+    •	Reading the scenarios or the problems and understand it 
+    •	Write down the main ideas and functions needed to be used
+    •	Start writing the code
+    •	Execute the code to check the results 
+    •	Write the comments on the code.
+ 
+•	Limitation
+  The limitation in this lab could be the basicness of writing THE code and for sure there are a lot better codes than I have in this lab.
+  
+•	References
+I have used couple of resources such github, stackoverflow, teamtreehouse, and python official webpage, to get this lab done. 
+I also watched a couple of videos to manage to get through with this lab. Below is the list of those references:
+    a)	http://www.programmingforums.org/thread27655.html
+    b)	https://github.com/fnl/segtok
+    c)	http://www.pythonforbeginners.com/basics/string-manipulation-in-python
+    d)	https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zer 
+    e)	https://teamtreehouse.com/community/longest-word-in-a-list
+    f)	https://www.tutorialspoint.com/python/number_floor.htm
+    g)	https://stackoverflow.com/questions/19410018/how-to-count-the-number-of-words-in-a-sentence
+    h)	https://stackoverflow.com/questions/29686952/nested-loops-to-determine-students-in-two-classes-bot 
+    i)	https://stackoverflow.com/questions/19410018/how-to-count-the-number-of-words-in-a-sentence
 
